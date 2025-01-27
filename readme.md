@@ -15,20 +15,13 @@
 Install with `conda`: 
 ```bash
 conda env create -f environment.yaml
-conda activate anydoor
+conda activate SAIC
 ```
 or `pip`:
 ```bash
 pip install -r requirements.txt
 ```
-Additionally, for training, you need to install panopticapi, pycocotools, and lvis-api.
-```bash
-pip install git+https://github.com/cocodataset/panopticapi.git
 
-pip install pycocotools -i https://pypi.douban.com/simple
-
-pip install lvis
-```
 ## Download Checkpoints
 Download AnyDoor checkpoint: 
 * [ModelScope](https://modelscope.cn/models/damo/AnyDoor/files)
