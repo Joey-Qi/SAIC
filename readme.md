@@ -23,7 +23,7 @@ pip install -r requirements.txt
 ```
 
 ## Download Checkpoints
-Download AnyDoor checkpoint: 
+Download SAIC checkpoint and revise `/configs/inference.yaml` for the path (line 1) 
 * [ModelScope](https://modelscope.cn/models/damo/AnyDoor/files)
 * [HuggingFace](https://huggingface.co/spaces/xichenhku/AnyDoor/tree/main)
 
@@ -33,19 +33,14 @@ Download AnyDoor checkpoint:
 Download DINOv2 checkpoint and revise `/configs/SAIC.yaml` for the path (line 83)
 * URL: https://github.com/facebookresearch/dinov2?tab=readme-ov-file
 
-Download Stable Diffusion V2.1 if you want to train from scratch.
-* URL: https://huggingface.co/stabilityai/stable-diffusion-2-1/tree/main
-
-
 ## Inference
-We provide inference code in `run_inference.py` (from Line 222 - ) for both inference single image and inference a dataset (VITON-HD Test). You should modify the data path and run the following code. The generated results are provided in `examples/TestDreamBooth/GEN` for single image, and `VITONGEN` for VITON-HD Test.
+We provide inference code in `run_inference_FullFull.py` (from Line 493 - ) for cytopathological images synthesis. You should modify the data path (Organize like `examples`) and run the following code.
 
 ```bash
-python run_inference.py
+python run_inference_FullFull.py
 ```
-The inferenced results on VITON-Test would be like [garment, ground truth, generation].
 
-*Noticing that AnyDoor does not contain any specific design/tuning for tryon, we think it would be helpful to add skeleton infos or warped garment, and tune on tryon data to make it better :)*
+*Some examples are shown as follows:*
   <table align="center">
     <tr>
     <td>
@@ -54,10 +49,5 @@ The inferenced results on VITON-Test would be like [garment, ground truth, gener
     </tr>
   </table>
 
-
-Our evaluation data for DreamBooth an COCOEE coud be downloaded at Google Drive:
-* URL: [to be released]
-
-
 ## Acknowledgements
-This project is developped on the codebase of [ControlNet](https://github.com/lllyasviel/ControlNet). We  appreciate this great work! 
+This project is developped on the codebase of [ControlNet](https://github.com/lllyasviel/ControlNet) and [AnyDoor](https://github.com/ali-vilab/AnyDoor). We appreciate those great works! 
