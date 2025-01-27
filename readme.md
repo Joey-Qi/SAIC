@@ -49,4 +49,4 @@ python run_inference_FullFull.py
   </table>
 
 ## Acknowledgements
-This project is developped on the codebase of [ControlNet](https://github.com/lllyasviel/ControlNet) and [AnyDoor](https://github.com/ali-vilab/AnyDoor). We appreciate those great works! 
+This project is developped on the codebase of [ControlNet](https://github.com/lllyasviel/ControlNet). We appreciate this great work! 
