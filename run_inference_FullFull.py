@@ -7,7 +7,7 @@ from pytorch_lightning import seed_everything
 from cldm.model import create_model, load_state_dict
 from cldm.ddim_hacked import DDIMSampler
 from cldm.hack import disable_verbosity, enable_sliced_attention
-from datasets_anydoor.data_utils import *
+from datasets.data_utils import *
 
 from transformers import AutoImageProcessor, AutoModel
 from PIL import Image
