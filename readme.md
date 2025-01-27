@@ -10,14 +10,6 @@
     </tr>
   </table>
 
-## News
-* **[2023.12.17]** Release train & inference & demo code, and pretrained checkpoint.
-* **[2023.12.24]** 🔥 Support online demo on [ModelScope](https://modelscope.cn/studios/damo/AnyDoor-online/summary) and 
- [HuggingFace](https://huggingface.co/spaces/xichenhku/AnyDoor-online).
-* **[Soon]** Release the new version paper.
-* **[On-going]** Scale-up the training data and release stronger models as the foundaition model for downstream region-to-region generation tasks.
-* **[On-going]** Release specific-designed models for downstream tasks like virtual tryon, face swap, text and logo transfer, etc.
-
 
 ## Installation
 Install with `conda`: 
