@@ -98,5 +98,3 @@ Our evaluation data for DreamBooth an COCOEE coud be downloaded at Google Drive:
 
 ## Acknowledgements
 This project is developped on the codebase of [ControlNet](https://github.com/lllyasviel/ControlNet). We  appreciate this great work! 
-
-```
