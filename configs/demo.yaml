@@ -1,4 +1,4 @@
 pretrained_model: path/epoch=1-step=8687.ckpt
-config_file: configs/anydoor.yaml
+config_file: configs/SAIC.yaml
 save_memory: False
 use_interactive_seg: True

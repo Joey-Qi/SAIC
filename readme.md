@@ -30,7 +30,7 @@ Download AnyDoor checkpoint:
 **Note:** We include all the optimizer params for Adam, so the checkpoint is big. You could only keep the "state_dict" to make it much smaller.
 
 
-Download DINOv2 checkpoint and revise `/configs/anydoor.yaml` for the path (line 83)
+Download DINOv2 checkpoint and revise `/configs/SAIC.yaml` for the path (line 83)
 * URL: https://github.com/facebookresearch/dinov2?tab=readme-ov-file
 
 Download Stable Diffusion V2.1 if you want to train from scratch.

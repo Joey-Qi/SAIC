@@ -272,7 +272,7 @@ class FrozenOpenCLIPImageEncoder(AbstractEncoder):
 sys.path.append("./dinov2")
 import hubconf
 from omegaconf import OmegaConf
-config_path = './configs/anydoor.yaml'
+config_path = './configs/SAIC.yaml'
 config = OmegaConf.load(config_path)
 DINOv2_weight_path = config.model.params.cond_stage_config.weight
 
