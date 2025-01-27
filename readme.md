@@ -34,7 +34,7 @@ Download DINOv2 checkpoint and revise `/configs/SAIC.yaml` for the path (line 83
 * URL: https://github.com/facebookresearch/dinov2?tab=readme-ov-file
 
 ## Inference
-We provide inference code in `run_inference_FullFull.py` (from Line 493 - ) for cytopathological images synthesis. You should modify the data path (Organize like 'examples') and run the following code.
+We provide inference code in `run_inference_FullFull.py` (from Line 493 - ) for cytopathological images synthesis. You should modify the data path (Organize like `examples`) and run the following code.
 
 ```bash
 python run_inference_FullFull.py
