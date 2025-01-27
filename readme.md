@@ -96,70 +96,7 @@ Our evaluation data for DreamBooth an COCOEE coud be downloaded at Google Drive:
 * URL: [to be released]
 
 
-
-
-
-## Gradio demo 
-Currently, we suport local gradio demo. To launch it, you should firstly modify `/configs/demo.yaml` for the path to the pretrained model, and `/configs/anydoor.yaml` for the path to DINOv2(line 83). 
-
-Afterwards, run the script:
-```bash
-python run_gradio_demo.py
-```
-The gradio demo would look like the UI shown below:
-
-* 📢 This version requires users to annotate the mask of the target object, too coarse mask would influence the generation quality. We plan to add mask refine module or interactive segmentation modules in the demo.
-
-* 📢 We provide an segmentation module to refine the user annotated reference mask. We could chose to disable it by setting  `use_interactive_seg: False` in `/configs/demo.yaml`.
-
-<table align="center">
-  <tr>
-  <td>
-    <img src="assets/Figures/gradio.png">
-  </td>
-  </tr>
-</table>
-
-## Train
-
-### Prepare datasets
-* Download the datasets that present in `/configs/datasets.yaml` and modify the corresponding paths.
-* You could prepare you own datasets according to the formates of files in `./datasets`.
-* If you use UVO dataset, you need to process the json following `./datasets/Preprocess/uvo_process.py`
-* You could refer to `run_dataset_debug.py` to verify you data is correct.
-
-
-### Prepare initial weight
-* If your would like to train from scratch, convert the downloaded SD weights to control copy by running:
-```bash
-sh ./scripts/convert_weight.sh  
-```
-### Start training
-* Modify the training hyper-parameters in `run_train_anydoor.py` Line 26-34 according to your training resources. We verify that using 2-A100 GPUs with batch accumulation=1 could get satisfactory results after 300,000 iterations.
-
-
-* Start training by executing: 
-```bash
-sh ./scripts/train.sh  
-```
-
-## 🔥 Community Contributions
-@bdsqlsz
-
-* AnyDoor for windows: https://github.com/sdbds/AnyDoor-for-windows
-* Pruned model: https://modelscope.cn/models/bdsqlsz/AnyDoor-Pruned/summary
-
 ## Acknowledgements
 This project is developped on the codebase of [ControlNet](https://github.com/lllyasviel/ControlNet). We  appreciate this great work! 
 
-
-## Citation
-If you find this codebase useful for your research, please use the following entry.
-```BibTeX
-@article{chen2023anydoor,
-  title={Anydoor: Zero-shot object-level image customization},
-  author={Chen, Xi and Huang, Lianghua and Liu, Yu and Shen, Yujun and Zhao, Deli and Zhao, Hengshuang},
-  journal={arXiv preprint arXiv:2307.09481},
-  year={2023}
-}
 ```
