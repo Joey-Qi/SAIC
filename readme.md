@@ -1,28 +1,6 @@
 <p align="center">
 
   <h2 align="center">Style-Aligned Image Composition for Robust Detection of Abnormal Cells in Cytopathology</h2>
-  <p align="center">
-    <a href="https://xavierchen34.github.io/"><strong>Xi Chen</strong></a>
-    ·
-    <a href="https://scholar.google.com/citations?user=JYVCn3AAAAAJ&hl=en"><strong>Lianghua Huang</strong></a>
-    ·
-    <a href="https://scholar.google.com/citations?user=8zksQb4AAAAJ&hl=zh-CN"><strong>Yu Liu</strong></a>
-    ·
-    <a href="https://shenyujun.github.io/"><strong>Yujun Shen</strong></a>
-    ·
-    <a href="https://scholar.google.com/citations?user=7LhjCn0AAAAJ&hl=en"><strong>Deli Zhao</strong></a>
-    ·
-    <a href="https://hszhao.github.io/"><strong>Hengshuang Zhao</strong></a>
-    <br>
-    <br>
-        <a href="https://arxiv.org/abs/2307.09481"><img src='https://img.shields.io/badge/arXiv-AnyDoor-red' alt='Paper PDF'></a>
-        <a href='https://ali-vilab.github.io/AnyDoor-Page/'><img src='https://img.shields.io/badge/Project_Page-AnyDoor-green' alt='Project Page'></a>
-        <a href='https://modelscope.cn/studios/damo/AnyDoor-online/summary'><img src='https://img.shields.io/badge/ModelScope-AnyDoor-yellow'></a>
-        <a href='https://huggingface.co/spaces/xichenhku/AnyDoor-online'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue'></a>
-        <a href='https://replicate.com/lucataco/anydoor'><img src='https://replicate.com/lucataco/anydoor/badge'></a>
-    <br>
-    <b>The University of Hong Kong &nbsp; | &nbsp;  Alibaba Group  | &nbsp;  Ant Group </b>
-  </p>
   
   <table align="center">
     <tr>
