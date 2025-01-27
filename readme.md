@@ -1,6 +1,6 @@
 <p align="center">
 
-  <h2 align="center">AnyDoor: Zero-shot Object-level Image Customization</h2>
+  <h2 align="center">Style-Aligned Image Composition for Robust Detection of Abnormal Cells in Cytopathology</h2>
   <p align="center">
     <a href="https://xavierchen34.github.io/"><strong>Xi Chen</strong></a>
     ·
