@@ -5,7 +5,7 @@
   <table align="center">
     <tr>
     <td>
-      <img src="assets/Figures/Teaser.png">
+      <img src="assets/Figures/framework.png">
     </td>
     </tr>
   </table>
@@ -56,7 +56,7 @@ The inferenced results on VITON-Test would be like [garment, ground truth, gener
   <table align="center">
     <tr>
     <td>
-      <img src="assets/Figures/tryon.png">
+      <img src="assets/Figures/demonstration.png">
     </td>
     </tr>
   </table>
