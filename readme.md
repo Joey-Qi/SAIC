@@ -32,6 +32,16 @@ Download SAIC checkpoint and revise `/configs/inference.yaml` for the path (line
 Download DINOv2 checkpoint and revise `/configs/SAIC.yaml` for the path (line 83)
 * URL: https://github.com/facebookresearch/dinov2?tab=readme-ov-file
 
+Download dinov2-giant and revise `/run_inference_FullFull.py` for the path (line 42-43)
+
+```bash
+# Change source
+export HF_ENDPOINT=https://hf-mirror.com
+
+# Download model from Huggingface 
+huggingface-cli download facebook/dinov2-giant --resume-download --local-dir /mnt/data/dinov2
+```
+
 ## Inference
 We provide inference code in `run_inference_FullFull.py` (from Line 493 - ) for cytopathological images synthesis. You should modify the data path (Organize like `examples`) and run the following code.
 
