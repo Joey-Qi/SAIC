@@ -492,15 +492,15 @@ def inference_double_image(ref_image1, ref_mask1, ref_image2, ref_mask2, tar_ima
 
 if __name__ == '__main__':
     # foreground image path (FG), also known as Abnormal Cell Bank
-    reference_image_dir = 'examples/FG'
+    reference_image_dir = 'examples/reference'
     # background image path (BG)
-    image_dir = 'examples/BG'
+    image_dir = 'examples/background'
     # background mask path (BG_mask)
-    mask_dir = 'examples/BG_mask'
+    mask_dir = 'examples/mask'
     # type record path (prepare on your own)
-    TypeAware_txt_file_path = 'path/type record'
+    TypeAware_txt_file_path = 'examples/inference_results_TypeAware.txt'
     # save path
-    composition_dir_initial = 'examples/GEN'
+    composition_dir_initial = 'examples/gen'
 
     os.makedirs(composition_dir_initial, exist_ok=True)
 

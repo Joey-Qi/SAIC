@@ -1,0 +1,5 @@
+1. 修改 configs 中 SAIC.yaml 第 83 行 weight 的路径
+
+2. 修改 configs 中 inference.yaml 第 1 行 pretrained_model 的路径
+
+3. 修改 run_inference_FullFull.py 第 42，43 行 DINOv2 的路径
