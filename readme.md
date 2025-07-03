@@ -25,6 +25,7 @@ pip install -r requirements.txt
 ## Download Checkpoints
 Download SAIC checkpoint and revise `/configs/inference.yaml` for the path (line 1) 
 * [ModelScope](https://modelscope.cn/models/JoeyQi/SAIC/files)
+* [HuggingFace](https://huggingface.co/qiqiuyi6/SAIC/tree/main)
 
 **Note:** We include all the optimizer params for Adam, so the checkpoint is big. You could only keep the "state_dict" to make it much smaller.
 
