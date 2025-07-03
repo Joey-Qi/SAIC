@@ -19,5 +19,5 @@ timm==0.6.12
 torch==2.0.0
 torchmetrics==0.6.0
 tqdm==4.65.0
-transformers==4.19.2
+transformers==4.52.0
 xformers==0.0.18
